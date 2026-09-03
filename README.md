@@ -47,5 +47,3 @@ Vos projets sont sauvegardés localement dans le dossier d'installation.
 Ils persistent entre les sessions et les mises à jour.
 
 ---
-
-*Développé dans le cadre d'un projet pédagogique universitaire.*
