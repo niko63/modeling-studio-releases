@@ -20,6 +20,15 @@ Plateforme de modélisation d'entreprise et simulation à événements discrets.
 2. Choisissez l'installeur Windows (`.msi`) et suivez les étapes
 3. Vérifiez l'installation : ouvrez un terminal et tapez `node --version`
 
+**En cas d'erreur `ffmpeg.dll introuvable` au lancement :**
+
+Installez **Visual C++ Redistributable** (Microsoft, gratuit) :
+👉 https://aka.ms/vs/17/release/vc_redist.x64.exe
+
+Redémarrez la machine puis relancez l'application.
+2. Choisissez l'installeur Windows (`.msi`) et suivez les étapes
+3. Vérifiez l'installation : ouvrez un terminal et tapez `node --version`
+
 ---
 
 ## 🚀 Installation
