@@ -58,7 +58,3 @@ Ils persistent entre les sessions.
 👉 https://aka.ms/vs/17/release/vc_redist.x64.exe
 
 **Page blanche au démarrage** — vérifiez que Node.js est bien installé (`node --version` dans un terminal).
-
----
-
-*Développé dans le cadre d'un projet pédagogique universitaire — IMT Mines Alès.*
