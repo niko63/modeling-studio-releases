@@ -10,6 +10,8 @@ Plateforme de modélisation d'entreprise et simulation à événements discrets.
 
 👉 **[Dernière version — Releases](https://github.com/niko63/modeling-studio-releases/releases/latest)**
 
+Téléchargez le fichier `Modeling & Simulation Studio X.X.X.exe` et double-cliquez dessus pour lancer l'application. **Pas d'installation requise** — c'est un exécutable portable.
+
 ---
 
 ## ⚙️ Prérequis
@@ -20,22 +22,15 @@ Plateforme de modélisation d'entreprise et simulation à événements discrets.
 2. Choisissez l'installeur Windows (`.msi`) et suivez les étapes
 3. Vérifiez l'installation : ouvrez un terminal et tapez `node --version`
 
-**En cas d'erreur `ffmpeg.dll introuvable` au lancement :**
-
-Installez **Visual C++ Redistributable** (Microsoft, gratuit) :
-👉 https://aka.ms/vs/17/release/vc_redist.x64.exe
-
-Redémarrez la machine puis relancez l'application.
-2. Choisissez l'installeur Windows (`.msi`) et suivez les étapes
-3. Vérifiez l'installation : ouvrez un terminal et tapez `node --version`
+> ⚠️ **Important** — Ne pas lancer de serveur Node.js manuellement. L'application démarre son propre serveur automatiquement.
 
 ---
 
-## 🚀 Installation
+## 🚀 Utilisation
 
 1. Téléchargez le fichier `.exe` depuis la section **Releases**
-2. Double-cliquez sur l'installeur
-3. Lancez **Modeling & Simulation Studio** depuis le bureau ou le menu Démarrer
+2. Double-cliquez sur l'exe pour lancer l'application directement
+3. Créez un compte au premier lancement (le premier compte est automatiquement administrateur)
 
 ---
 
@@ -52,7 +47,18 @@ Redémarrez la machine puis relancez l'application.
 
 ## 📁 Données
 
-Vos projets sont sauvegardés localement dans le dossier d'installation.
-Ils persistent entre les sessions et les mises à jour.
+Vos projets sont sauvegardés localement sur votre machine.
+Ils persistent entre les sessions.
 
 ---
+
+## ❓ Problèmes connus
+
+**Erreur `ffmpeg.dll introuvable`** — installez Visual C++ Redistributable :
+👉 https://aka.ms/vs/17/release/vc_redist.x64.exe
+
+**Page blanche au démarrage** — vérifiez que Node.js est bien installé (`node --version` dans un terminal).
+
+---
+
+*Développé dans le cadre d'un projet pédagogique universitaire — IMT Mines Alès.*
