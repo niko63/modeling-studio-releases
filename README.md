@@ -29,8 +29,7 @@ Téléchargez le fichier `Modeling & Simulation Studio X.X.X.exe` et double-cliq
 ## 🚀 Utilisation
 
 1. Téléchargez le fichier `.exe` depuis la section **Releases**
-2. Double-cliquez sur l'exe pour lancer l'application directement
-3. Créez un compte au premier lancement (le premier compte est automatiquement administrateur)
+2. Double-cliquez sur l'exe pour lancer l'application directement — aucun compte à créer, l'application est prête à l'emploi
 
 ---
 
